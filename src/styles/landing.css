@@ -1,0 +1,80 @@
+#page-landing{
+  width: 100vw;
+  height: 100vh;
+
+  background: linear-gradient(243.18deg, #284AFF 0.52%, #B433FF 82.81%);
+  mix-blend-mode: normal;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page-landing .content-wrapper{
+
+  position: relative;
+
+  width: 100%;
+  max-width: 1100px;
+
+  height: 100%;
+  max-height: 680px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background: url('../images/studying-figure.svg') no-repeat 100% center;
+}
+
+#page-landing .content-wrapper main {
+  max-width: 350px;
+}
+
+#page-landing .content-wrapper main h1{
+  font-size: 76px;
+  font-weight: 900;
+  line-height: 70px;
+  
+  margin-bottom: 120px;
+}
+
+#page-landing .content-wrapper main p {
+  width: 500px;
+
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+#page-landing .content-wrapper .made-by{
+  position: absolute;
+  right: 0;
+  top: 6px;
+}
+
+#page-landing .content-wrapper .made-by a{
+  text-decoration: none;
+  color: #F0F0F0;
+}
+
+#page-landing .content-wrapper .enter-app{
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+
+  width: 80px;
+  height: 80px;
+  background: #FFF;
+  border-radius: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color .2s;
+}
+
+#page-landing .content-wrapper .enter-app:hover{
+  background: rgba(255, 255, 255, 0.623);
+}
