@@ -1,4 +1,4 @@
-#Me Nota!
+# :books: Me Nota!
 
 #### Me nota é uma aplicação para organização dos estudos. Com ela o usuário pode criar avaliações, atribuir pesos e datas. Criar to-do lists etc.
 
