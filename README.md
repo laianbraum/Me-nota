@@ -4,7 +4,10 @@
 
 ## 🚀 Tecnologias utilizadas
 - ReactJS
-- React Material-UI
+- Material UI
+- Express
+- TypeORM
+- SQLite
 
 ## Landing 
 <img src="https://user-images.githubusercontent.com/61033391/99009499-e1ab0a80-2526-11eb-9989-9e585a365056.png"></img>
