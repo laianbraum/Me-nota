@@ -1,3 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: #FFF;
+  font: 600 18px Nunito, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
 #page-landing{
   width: 100vw;
   height: 100vh;
@@ -8,6 +28,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  overflow-x: hidden;
 }
 #page-landing .content-wrapper{
 
@@ -24,7 +46,7 @@
   flex-direction: column;
   justify-content: space-between;
 
-  background: url('../images/studying-figure.svg') no-repeat 100% center;
+  background: url('./images/studying-figure.svg') no-repeat 100% center;
 }
 
 #page-landing .content-wrapper main {
@@ -78,3 +100,16 @@
 #page-landing .content-wrapper .enter-app:hover{
   background: rgba(255, 255, 255, 0.623);
 }
+
+
+
+
+
+
+#home-page{
+  width: 100%;
+  height: 100vh;
+
+  background: linear-gradient(243.18deg, #0a86ac 0%, #35D8E2 95.31%);
+}
+

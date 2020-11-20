@@ -21,15 +21,6 @@ const rows = [
 
 function SubjectTable(){
   const classes = useStyles(); 
-
-  // async function getSubjects(){
-  //   await 
-  // }
-  
-  // useEffect(({
-  //   getSubjects();
-  // }), []);
-
   function CalcFinalGrade(){
 
     var soma = 0;
