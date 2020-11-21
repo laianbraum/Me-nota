@@ -17,7 +17,7 @@ export default{
     
     await toDosRepository.save(toDo);
 
-    return response.status(201).json({message: "Todo criado"});
+    return response.status(201).json({message: "todo created"});
   },
 
   async index(request: Request, response: Response){
@@ -35,6 +35,6 @@ export default{
 
     const deleteTodo = await toDosRepository.delete(id);
 
-    return response.json({message: "toDo apagado!"});
+    return response.json({message: "todo deleted!"});
   }
 }
